@@ -1,0 +1,32 @@
+*{
+   margin:0px 0px;
+}
+.hero{
+   background-image: url('images/temple.jpg');
+   width: 100%;
+   aspect-ratio: 16/9;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+   font-family: "Oi", serif;
+   font-size: 40px;
+   font-weight:normal;
+   margin-top: -200px;
+   padding: 10px;
+   border-radius:10px;
+   text-shadow: 5px 5px .1px #EB5B00;
+}
+body{
+   color: white;
+}
+.info{
+   margin-top: 40px;
+   width: 600px;
+   font-weight:700;
+}
